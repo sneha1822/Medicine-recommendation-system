@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f8fb;
+    color: #523d3d;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #73a8ec !important;
+    padding: 15px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    color: white !important;
+    transition: 0.3s;
+}
+.navbar-nav .nav-link:hover {
+    color: #ffcc00 !important;
+}
+
+/* Hero Section */
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #004aad;
+}
+
+.container {
+    background: white;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+.form-control {
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: #9abbe7;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #7ba7e9;
+}
+
+.btn-danger {
+    background-color: #d9534f;
+    border: none;
+    padding: 12px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+/* Buttons */
+.toggle-button {
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 8px 15px;
+    margin: 10px;
+    color: white;
+    transition: 0.3s;
+    border: none;
+}
+
+.toggle-button:nth-child(1) { background: #ff6b6b; }
+.toggle-button:nth-child(2) { background: #4dabf7; }
+.toggle-button:nth-child(3) { background: #feca57; }
+.toggle-button:nth-child(4) { background: #48c774; }
+.toggle-button:nth-child(5) { background: #a29bfe; }
+.toggle-button:nth-child(6) { background: #f9ca24; }
+
+.toggle-button:hover {
+    opacity: 0.8;
+}
+
+/* Modals */
+.modal-header {
+    background-color: #70abf7;
+    color: rgb(168, 245, 248);
+}
+.modal-body {
+    font-size: 1.1rem;
+    color: #523030;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .toggle-button {
+        width: 100%;
+    }
+}
